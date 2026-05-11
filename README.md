@@ -4,6 +4,14 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **RotorRadius** (number)
+- **ToothHeight** (number)
+- **Clearance** (number)
+- **TopSlope** (number)
+
+
 
 
  

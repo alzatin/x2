@@ -4,6 +4,28 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "x2",
+  "ioValues": [
+    {
+      "name": "RotorRadius",
+      "ioValue": 3,
+      "currentEquation": "3"
+    },
+    {
+      "name": "ToothHeight",
+      "ioValue": 2,
+      "currentEquation": "2"
+    },
+    {
+      "name": "Clearance",
+      "ioValue": 0.2,
+      "currentEquation": ".2"
+    },
+    {
+      "name": "TopSlope",
+      "ioValue": 40,
+      "currentEquation": "40"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -19,88 +41,49 @@
       ]
     },
     {
-      "atomType": "Circle",
-      "x": 0.16885813148788928,
-      "y": 0.524390243902439,
-      "uniqueID": "id-6",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.16,
+      "uniqueID": "id-34",
+      "name": "RotorRadius"
     },
     {
-      "atomType": "Extrude",
-      "x": 0.3432525951557094,
-      "y": 0.35060975609756095,
-      "uniqueID": "id-9",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.256,
+      "uniqueID": "id-37",
+      "name": "ToothHeight"
     },
     {
-      "atomType": "Label",
-      "x": 0.5175879396984925,
-      "y": 0.625,
-      "uniqueID": "id-13",
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.352,
+      "uniqueID": "id-40",
+      "name": "Clearance"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.44799999999999995,
+      "uniqueID": "id-43",
+      "name": "TopSlope"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.313953488372093,
+      "y": 0.3780487804878049,
+      "uniqueID": "id-46",
+      "name": "(RotorRadius + ToothHeight + Clearance -CoverCurve)/tan(TopSlope*pi/180)",
       "ioValues": [
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "text",
-          "ioValue": "label",
-          "currentEquation": "label"
-        },
-        {
-          "name": "startPosition",
-          "ioValue": [
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "name": "endPosition",
-          "ioValue": [
-            0,
-            0,
-            20
-          ]
-        },
-        {
-          "name": "color",
-          "ioValue": "#191782",
-          "currentEquation": "#191782"
-        },
-        {
-          "name": "fontSize",
-          "ioValue": 40
+          "name": "CoverCurve",
+          "ioValue": 1
         }
-      ]
+      ],
+      "currentEquation": "(RotorRadius + ToothHeight + Clearance -CoverCurve)/tan(TopSlope*pi/180)"
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-6",
-      "ap2ID": "id-9"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-9",
-      "ap2ID": "id-13"
-    }
-  ],
+  "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
