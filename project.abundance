@@ -120,8 +120,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.4525519848771266,
-              "y": 0.5951219512195121,
+              "x": 0.445179584120983,
+              "y": 0.5579268292682927,
               "uniqueID": "id-92",
               "name": "New Molecule",
               "topLevel": false,
@@ -140,17 +140,18 @@
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.4026465028355387,
-                  "y": 0.6585365853658536,
+                  "x": 0.37901701323251413,
+                  "y": 0.47560975609756095,
                   "uniqueID": "id-94",
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": null
+                      "ioValue": null,
+                      "currentEquation": "NaN"
                     },
                     {
                       "name": "y length",
-                      "ioValue": 10
+                      "ioValue": null
                     }
                   ]
                 }
