@@ -66,8 +66,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.3197674418604651,
-      "y": 0.4268292682926829,
+      "x": 0.33624031007751937,
+      "y": 0.600609756097561,
       "uniqueID": "id-46",
       "name": "(RotorRadius + ToothHeight + Clearance -CoverCurve)/tan(TopSlope*pi/180)",
       "ioValues": [
