@@ -7,23 +7,19 @@
   "ioValues": [
     {
       "name": "RotorRadius",
-      "ioValue": 3,
-      "currentEquation": "3"
+      "ioValue": 3
     },
     {
       "name": "ToothHeight",
-      "ioValue": 2,
-      "currentEquation": "2"
+      "ioValue": 2
     },
     {
       "name": "Clearance",
-      "ioValue": 0.2,
-      "currentEquation": ".2"
+      "ioValue": 0.2
     },
     {
       "name": "TopSlope",
-      "ioValue": 40,
-      "currentEquation": "40"
+      "ioValue": 40
     }
   ],
   "topLevel": true,
