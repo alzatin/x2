@@ -77,6 +77,94 @@
         }
       ],
       "currentEquation": "(RotorRadius + ToothHeight + Clearance -CoverCurve)/tan(TopSlope*pi/180)"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.5113421550094518,
+      "y": 0.5609756097560976,
+      "uniqueID": "id-86",
+      "name": "New Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-88",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.5025519848771266,
+          "y": 0.545121951219512,
+          "uniqueID": "id-90",
+          "name": "New Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-91",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.4525519848771266,
+              "y": 0.5951219512195121,
+              "uniqueID": "id-92",
+              "name": "New Molecule",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-93",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.4026465028355387,
+                  "y": 0.6585365853658536,
+                  "uniqueID": "id-94",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 10
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
+            }
+          ],
+          "allConnectors": [],
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [],
