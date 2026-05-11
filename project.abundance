@@ -17,9 +17,90 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.16885813148788928,
+      "y": 0.524390243902439,
+      "uniqueID": "id-6",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3432525951557094,
+      "y": 0.35060975609756095,
+      "uniqueID": "id-9",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Label",
+      "x": 0.5439446366782007,
+      "y": 0.4176829268292683,
+      "uniqueID": "id-13",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "startPosition",
+          "ioValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "endPosition",
+          "ioValue": [
+            0,
+            0,
+            20
+          ]
+        },
+        {
+          "name": "color",
+          "ioValue": "#191782",
+          "currentEquation": "#191782"
+        },
+        {
+          "name": "fontSize",
+          "ioValue": 40
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-9"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-9",
+      "ap2ID": "id-13"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
